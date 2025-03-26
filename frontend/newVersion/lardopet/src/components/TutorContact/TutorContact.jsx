@@ -4,9 +4,9 @@ import * as S from './styles';
 export const TutorContact = ({ userFirstName, userEmail, userPhone }) => {
   return (
     <S.TutorContacts>
-      <span>Tutor: {' ' + userFirstName}</span>
-      <span>E-mail: {' ' + userEmail}</span>
-      <span>Telefone: {' ' + userPhone}</span>
+      <S.TutorInfos> {`Nome: ${userFirstName}`}</S.TutorInfos>
+      <S.TutorInfos> {`E-mail: ${userEmail}`}</S.TutorInfos>
+      <S.TutorInfos> {`Telefone: ${userPhone}`}</S.TutorInfos>
     </S.TutorContacts>
   );
 };

@@ -71,20 +71,23 @@ export const PetCard = ({
         <S.PetName>{name}</S.PetName>
         <S.PetInfosContainer>
           <S.PetInfos>
-            <span>Idade: {' ' + idade + ' ' + tempo}</span>
-            <span>Porte: {' ' + porte}</span>
-            <S.PetGender>
-              Gênero: {' ' + genero}
-            </S.PetGender>
-            <span>Bairro: {' ' + userBairro}</span>
-            <span>Cidade: {' ' + userCidade}</span>
-            <span>Estado: {' ' + userEstado}</span>
+            <S.PetDetails>{`Idade: ${idade} ${tempo}`}</S.PetDetails>
+            <S.PetDetails>{`Porte: ${porte}`}</S.PetDetails>
+            <S.PetDetails>
+              {`Gênero: ${genero}`}
+            </S.PetDetails>
+            <S.PetDetails>{`Bairro: ${userBairro}`}</S.PetDetails>
+            <S.PetDetails>Cidade: {' ' + userCidade}</S.PetDetails>
+            <S.PetDetails>Estado: {' ' + userEstado}</S.PetDetails>
             {contatoVisivel && (
+              <>
+              <h3 style={{textAlign: 'center'}}>Tutor</h3>
               <TutorContact
                 userFirstName={userFirstName}
                 userEmail={userEmail}
                 userPhone={userPhone}
               />
+              </>
             )}
           </S.PetInfos>
         </S.PetInfosContainer>

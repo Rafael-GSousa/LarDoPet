@@ -36,8 +36,9 @@ export const PetName = styled.h2`
   min-height: 2rem;
 `;
 
-export const PetGender = styled.span`
+export const PetDetails = styled.span`
   width: 100%;
+  text-align: left;
 `;
 
 export const PetInfos = styled.div`
