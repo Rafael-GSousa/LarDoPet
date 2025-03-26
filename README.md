@@ -4,6 +4,7 @@ Criar uma pasta para baixar o projeto e no terminal (cmd no Windows) faça:
 git clone -b <branch_name> <git_address>
 ```shell
 git clone -b frontend https://github.com/Rafael-GSousa/LarDoPet.git
+```
 
 2. Acesse a pasta do projeto
 
@@ -17,6 +18,7 @@ git clone -b frontend https://github.com/Rafael-GSousa/LarDoPet.git
   ```shell
   npm install
   ```
+  ou
 
   yarn
   ```shell
@@ -29,6 +31,7 @@ git clone -b frontend https://github.com/Rafael-GSousa/LarDoPet.git
   ```shell
   npm run dev
   ```
+  ou
 
   yarn
   ```shell
