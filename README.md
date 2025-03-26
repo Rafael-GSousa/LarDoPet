@@ -3,7 +3,7 @@
 Criar uma pasta para baixar o projeto e no terminal (cmd no Windows) faça:
 git clone -b <branch_name> <git_address>
 ```shell
-git clone -b frontend https://github.com/univesp2024-g22/lar_do_pet.git
+git clone -b frontend https://github.com/Rafael-GSousa/LarDoPet.git
 
 2. Acesse a pasta do projeto
 
